@@ -75,7 +75,7 @@ get_header();
                     </div>
                     <div class="asesor-datos">
                         <div class="asesor-datos-nombre">
-                            Lady
+                            Lado
                         </div>
                         <div class="asesor-datos-telefono">
                             +51 973943848
