@@ -1,0 +1,77 @@
+  /*--------------------------------------------------------------
+>>>>>>>>>>>>>>>>>>>>>> PREGUNTAS FRECUENTES
+----------------------------------------------------------------
+*/
+
+.accordion-item {
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+
+
+.accordion-button:focus {
+    outline: none;
+}
+
+.accordion-icon {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.accordion-content {
+    height: 0; /* Altura inicial en 0 */
+    overflow: hidden;
+    transition: height 0.3s ease-in-out; /* Animación suave de altura */
+    padding: 0 10px;
+}
+
+.accordion-content.open {
+    height: auto; /* Altura automática para mostrar el contenido */
+    transition: height 0.3s ease-in-out; /* Animación suave de altura */
+}
+.accordion-content-wrapper{
+    padding: 10px 10px;
+}
+.accordion-button {
+    background-color: #f1f1f1;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease; /* Transición suave de color de fondo */
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.accordion-button {
+    border-radius: 30px;
+    border: 1px solid #D6D6D6;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.accordion-item.active .accordion-button {
+    background-color: var(--color-secundario); /* Cambia el color de fondo del título del acordeón activo */
+    color: white;
+}
+.accordion{
+    display: flex;
+    gap: 20px;
+}
+.faq-column{
+    width: 50%;
+}
+@media screen and (max-width: 992px){
+    .accordion{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .faq-column{
+        width: 100%;
+    }
+}
