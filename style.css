@@ -148,6 +148,14 @@ header#masthead {
 }
 .horario, .telefono{
 	font-size: .9rem;
+	display: flex;
+    align-items: center;
+}
+.telefono{
+	font-weight: 500;
+}
+.telefono>svg{
+	margin-right: 6px;
 }
 .header-phone svg g path{
 	fill: var(--color-principal) !important;
