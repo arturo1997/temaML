@@ -408,10 +408,7 @@
     .container-menu-2 li{
         border-bottom: 1px dashed rgb(166, 166, 166);
     }
-    .submenu > a{
-        font-weight: 600;
-        text-transform: uppercase !important;
-    }
+
     .sub-menu-2{
         background-color: white;
     }
@@ -420,5 +417,8 @@
     }
 
 }
-
+.submenu > a{
+    font-weight: 600;
+    text-transform: uppercase !important;
+}
 
