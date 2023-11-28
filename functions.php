@@ -362,12 +362,12 @@ function agregar_seccion_personalizacion($wp_customize) {
 
     // Campo para el enlace de teléfono
     $wp_customize->add_setting('enlace_telefono', array(
-        'default' => '+51982934132',
+        'default' => '982934132',
         'sanitize_callback' => 'sanitize_text_field',
     ));
 
     $wp_customize->add_control('enlace_telefono', array(
-        'label' => 'Enlace de Teléfono',
+        'label' => 'Enlace de Teléfono(Sin codigo +51)',
         'section' => 'header_personalizado',
         'type' => 'text',
     ));

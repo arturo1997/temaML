@@ -185,7 +185,7 @@ get_header();
                             </li>
                             <li>
                                 <a class="telefono"
-                                    href="https://wa.me/<?php echo get_theme_mod('enlace_telefono', '51982934132'); ?>"
+                                    href="https://wa.me/51<?php echo get_theme_mod('enlace_telefono', '982934132'); ?>"
                                     target="_blank">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 54 54"
                                         fill="none">
@@ -200,7 +200,7 @@ get_header();
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    <?php echo get_theme_mod('enlace_telefono', '+51 982934132'); ?>
+                                    +51 <?php echo get_theme_mod('enlace_telefono', '982934132'); ?>
                                 </a>
                             </li>
                             <li>
@@ -217,7 +217,7 @@ get_header();
                         ES
                     </div>
                     <div class="telefono">
-                        <a href="https://wa.me/<?php echo get_theme_mod('enlace_telefono', '51982934132'); ?>"
+                        <a href="https://wa.me/51<?php echo get_theme_mod('enlace_telefono', '982934132'); ?>"
                             target="_blank">
 
                             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 54 54"
@@ -272,7 +272,7 @@ get_header();
                     </li>
                     <li>
                         <p>Habla con nosotros</p>
-                        <a href="tel:<?php echo get_theme_mod('enlace_telefono', '+51982934132'); ?>"
+                        <a href="tel:+51<?php echo get_theme_mod('enlace_telefono', '982934132'); ?>"
                             class="button-whatsapp">
                             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 54 54"
                                 fill="none">
@@ -287,7 +287,7 @@ get_header();
                                     </clipPath>
                                 </defs>
                             </svg>
-                            <span><?php echo get_theme_mod('enlace_telefono', '+51 982934132'); ?></span></a>
+                            <span>+51 <?php echo get_theme_mod('enlace_telefono', '982934132'); ?></span></a>
                         <p><?php echo get_theme_mod('horario_texto', 'Lunes a Viernes: 9am - 5pm'); ?></p>
 
                     </li>

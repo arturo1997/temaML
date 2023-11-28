@@ -38,8 +38,8 @@
         <div class="footer-main-contact container-footer">
             <?php dynamic_sidebar('contactenos'); ?>
             <div class="footer-buttons">
-                <a href="tel:<?php echo get_theme_mod('enlace_telefono', '+1234567890'); ?>"
-                    class="button-phone"><?php echo get_theme_mod('enlace_telefono', '+1234567890'); ?></a>
+                <a href="tel:+51 <?php echo get_theme_mod('enlace_telefono', '982934132'); ?>" class="button-phone">+51
+                    <?php echo get_theme_mod('enlace_telefono', '982934132'); ?></a>
                 <a href="https://machupicchulama.com/reserva-tu-viaje/" class="button">Consulte ahora</a>
             </div>
             <ul class="socialmedia">

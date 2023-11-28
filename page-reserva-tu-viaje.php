@@ -64,7 +64,6 @@ get_header();
         <section class="container content-tour clear">
 
             <article class="content ">
-                <?php include(TEMPLATEPATH."/template-parts/secciones/galeriaImagenes.php");?>
                 <div class="descripcionArticulo">
                     <?php
 			if (have_posts()) :
@@ -82,39 +81,7 @@ get_header();
 			?>
                 </div>
             </article>
-            <?php if (in_category(array(63,365))) { ?>
-            <div class="BoxRightBlog">
-                <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('BlogRight') ) : endif; ?>
-            </div>
-            <?php } else {
-include(TEMPLATEPATH."/template-parts/secciones/sidebar-right.php");
-} ?>
-            <div class="tour-sidebar ">
 
-                <div class="atencion-al-cliente">
-                    <div class="atencion-al-cliente-title">
-                        Atención al cliente
-                    </div>
-                    <div class="">
-                        <ul class="atencion-al-cliente-list">
-                            <li>
-                                <a class="atencion-al-cliente-email-icon"
-                                    href="mailto:info@machupicchulama.com"><?php get_template_part('images/iconos/email-icon'); ?></a>
-                                <strong>Email</strong>
-                                <a class="atencion-al-cliente-email"
-                                    href="mailto:info@salkantaytrekking.com">info@machupicchulama.com</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="tripadvisor">
-                    <a target="_blank"
-                        href="https://www.tripadvisor.com.pe/Attraction_Review-g294314-d12653635-Reviews-Machupicchu_Luna_Tours-Cusco_Cusco_Region-m11900.html">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/tripadvisor.png" width="" height=""
-                            alt="" />
-                    </a>
-                </div>
-            </div>
         </section>
     </div>
 
