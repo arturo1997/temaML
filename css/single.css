@@ -46,7 +46,6 @@
 }
 .hero-titulo{
 	font-size: 5rem;
-	width: 80%;
 	position: relative;
 }
 .hero-titulo::after {

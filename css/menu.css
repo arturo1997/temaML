@@ -45,7 +45,6 @@
         right: -97%;
         left: 97%;
         top: 0;
-        bottom: 0;
         pointer-events: none;
         opacity: 0;
         transition: .38s right, opacity .38s;
