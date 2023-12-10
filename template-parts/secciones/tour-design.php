@@ -39,7 +39,7 @@
                         $noches = $dias - 1;
                         echo '<span class="numero-price">' . $dias .'</span>  Días & <span class="numero-price">' . $noches . '</span> Noches';
                     } else {
-                        echo $dias, ' Dia';
+                        echo 'Full Day';
                     }
                     
                     ?></span>

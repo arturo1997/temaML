@@ -3,9 +3,9 @@
 ----------------------------------------------------------------
 **/
 .footer-top{
-	height: 600px;
+	height: 350px;
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
 	background-position: bottom;
 }
 .footer-main{
@@ -84,13 +84,15 @@
 	display: flex;
 	justify-content: space-between;
 }
-.button-phone{
+.button-whatsapp-footer{
 	color: white;
-	border: solid  white 1px;
-	display: inline-block;
+	display: inline-flex;
+	align-items: center;
+	gap: 10px;
 	padding: 10px 20px;
 	border-radius: 30px;
 	font-weight: 600;
+	background-color: #25D366;
 	transition: background-color 0.2s;
 }
 .socialmedia{
@@ -130,7 +132,6 @@
 .footer-top{
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 }
 .footer-top-low{
 	color: #000;

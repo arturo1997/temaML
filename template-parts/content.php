@@ -66,7 +66,7 @@
                         $noches = $dias - 1;
                         echo '<span >' . $dias .'</span>  Días & <span >' . $noches . '</span> Noches';
                     } else {
-                        echo $dias, ' Dia';
+                        echo 'Full Day';
                     }
                     
                     ?>
