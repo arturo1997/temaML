@@ -299,7 +299,7 @@
                                     href="mailto:info@machupicchulama.com"><?php get_template_part('images/iconos/email-icon'); ?></a>
                                 <strong>Email</strong>
                                 <a class="atencion-al-cliente-email"
-                                    href="mailto:info@salkantaytrekking.com">info@machupicchulama.com</a>
+                                    href="mailto:info@machupicchulama.com">info@machupicchulama.com</a>
                             </li>
                         </ul>
                     </div>
